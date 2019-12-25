@@ -1,4 +1,4 @@
-package com.example.dsc_onboarding;
+package com.example.dsc_onboarding.Fragment;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
+import com.example.dsc_onboarding.R;
 
 public class Frag3 extends Fragment {
 

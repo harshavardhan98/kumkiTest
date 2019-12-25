@@ -5,6 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.dsc_onboarding.Adapter.viewPageAdapter;
+import com.example.dsc_onboarding.Fragment.*;
+
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

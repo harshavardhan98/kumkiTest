@@ -1,12 +1,14 @@
-package com.example.dsc_onboarding;
+package com.example.dsc_onboarding.Adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.example.dsc_onboarding.testInterface;
+
 import java.util.ArrayList;
 
-public class viewPageAdapter extends FragmentPagerAdapter {
+public class viewPageAdapter extends FragmentPagerAdapter implements testInterface {
 
     ArrayList<Fragment> fragmentArrayList=new ArrayList<>();
 
@@ -29,6 +31,25 @@ public class viewPageAdapter extends FragmentPagerAdapter {
     public void addFragment(Fragment fragment)
     {
         fragmentArrayList.add(fragment);
+    }
+
+
+    @Override
+    public void method1() {
+        System.out.println("testing");
+        return;
+    }
+
+    @Override
+    public int method2() {
+        System.out.println("testing");
+        return 0;
+    }
+
+    @Override
+    public String method3(int a, int b, ArrayList<String> l) {
+        System.out.println("testing");
+        return null;
     }
 }
 
