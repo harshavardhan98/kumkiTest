@@ -40,6 +40,10 @@ public class Frag1 extends Fragment {
         return view;
     }
 
+    public void getHelloFragment(int x){
+        Log.d("testing", "harsha1");
+    }
+
     @Override
     public void setMenuVisibility(boolean menuVisible) {
         if (menuVisible) {

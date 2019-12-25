@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
         Log.d("testing","OnCreate");
     }
 
+    public void getHelloMain(int x){
+        Log.d("testing", "harsha1Main");
+    }
+
     @Override
     protected void onPause() {
         super.onPause();
