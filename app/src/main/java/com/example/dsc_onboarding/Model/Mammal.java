@@ -1,5 +1,7 @@
 package com.example.dsc_onboarding.Model;
 
+import android.util.Log;
+
 public class Mammal extends Animal {
 
     String family;
