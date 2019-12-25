@@ -9,4 +9,8 @@ public class Mammal extends Animal {
         super.behaviour();
         System.out.println("I am a mammal");
     }
+
+    public void getHelloMammal(float x){
+        Log.d("testing", "harsha1Mammal");
+    }
 }

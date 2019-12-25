@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class viewPageAdapter extends FragmentPagerAdapter implements testInterface {
 
-    ArrayList<Fragment> fragmentArrayList=new ArrayList<>();
+    ArrayList<Fragment> fragmentArrayList=new ArrayList<Fragment>();
 
 
     public viewPageAdapter(FragmentManager fm) {
