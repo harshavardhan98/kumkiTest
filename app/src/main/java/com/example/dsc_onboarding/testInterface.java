@@ -10,4 +10,6 @@ public interface testInterface {
 
     public String method3(int a, int b, ArrayList<String> l);
 
+    public void OnClickListener();
+
 }

@@ -51,6 +51,11 @@ public class viewPageAdapter extends FragmentPagerAdapter implements testInterfa
         System.out.println("testing");
         return null;
     }
+
+    @Override
+    public void OnClickListener() {
+        System.out.println("testing the code");
+    }
 }
 
 
